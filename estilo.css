@@ -116,6 +116,9 @@ nav {
 	text-align: center;
 }
 
+#botonGuias {
+	border: 1px solid black;	
+}
 
 
 @media only screen and (max-width: 900px) {
