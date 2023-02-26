@@ -30,7 +30,7 @@ document.getElementById("botonGuias").onclick = function () {
 		document.getElementById("foto").style.border = "none";
 		document.getElementById("barra_lateral").style.border = "none";
 		document.getElementById("principal").style.border = "none";
-		document.getElementById("botonGuias").style.border = "none";
+		document.getElementById("botonGuias").style.border = "1px solid black";
 		document.getElementById("bordejava").style.border = "none";
 		document.getElementById("botonGuias").innerHTML = "mostrar bordes";
 	}
