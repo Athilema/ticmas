@@ -15,6 +15,7 @@ document.getElementById("botonGuias").onclick = function () {
 		document.getElementById("principal").style.border = "3px solid red";
 		document.getElementById("botonGuias").style.border = "3px solid red";
 		document.getElementById("bordejava").style.border = "3px solid red";
+		document.getElementById("botonGuias").innerHTML = "ocultar bordes";
 	}
 	
 	else {
@@ -31,5 +32,6 @@ document.getElementById("botonGuias").onclick = function () {
 		document.getElementById("principal").style.border = "none";
 		document.getElementById("botonGuias").style.border = "none";
 		document.getElementById("bordejava").style.border = "none";
+		document.getElementById("botonGuias").innerHTML = "mostrar bordes";
 	}
 }
