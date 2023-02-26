@@ -108,6 +108,13 @@ nav {
 	
 }
 
+.java {
+	width: 99%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: grey;
+
 
 @media only screen and (max-width: 900px) {
 	
