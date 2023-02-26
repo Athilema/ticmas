@@ -32,6 +32,5 @@ document.getElementById("botonGuias").onclick = function () {
 		document.getElementById("java").style.border = "none";
 		document.getElementById("botonGuias").style.border = "none";
 		document.getElementById("bordejava").style.border = "none";
-		
 	}
 }
