@@ -114,10 +114,11 @@ nav {
 	padding: 0;
 	float: left;
 	background-color: grey;
+	text-align: center;
 }
 
 #botonGuias {
-	text-align: center;
+	
 }
 
 
