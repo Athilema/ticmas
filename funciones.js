@@ -3,5 +3,4 @@ function mensajeError () {
 	document.getElementById("mensajeError").innerHTML = "Funcion no disponible. Comunicarse por el siguiente medio";
 }
 
-document.getElementById("botonFormulario").addEventListener("click", mensajeError()),
-
+document.getElementById("botonFormulario").addEventListener("click", mensajeError());
