@@ -1,8 +1,8 @@
-let contador = 0
+var contador = 0;
 
 document.getElementById("botonGuias").onclick = function () {
 	if (contador === 0) {
-		let contador = 1;
+		contador = 1;
 		document.getElementById("nav").style.border = "3px solid red";
 		document.getElementById("menu").style.border = "3px solid red";
 		document.getElementById("menu1").style.border = "3px solid red";
@@ -17,7 +17,7 @@ document.getElementById("botonGuias").onclick = function () {
 	}
 	
 	else {
-		let contador = 0;
+		contador = 0;
 		document.getElementById("nav").style.border = "none";
 		document.getElementById("menu").style.border = "none";
 		document.getElementById("menu1").style.border = "none";
