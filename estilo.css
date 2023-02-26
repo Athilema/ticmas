@@ -124,12 +124,16 @@ nav {
 @media only screen and (max-width: 900px) {
 	
 	.cuerpo {
-	width: 100%;	
+		width: 100%;	
 	}
 	
 	.barra_lateral {
 
-	width: 100%;	
+		width: 100%;	
+	}
+	
+	.titulo {
+		text-align: center;
 	}
 	
 }
