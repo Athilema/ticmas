@@ -13,7 +13,6 @@ document.getElementById("botonGuias").onclick = function () {
 		document.getElementById("foto").style.border = "3px solid red";
 		document.getElementById("barra_lateral").style.border = "3px solid red";
 		document.getElementById("principal").style.border = "3px solid red";
-		document.getElementById("java").style.border = "3px solid red";
 		document.getElementById("botonGuias").style.border = "3px solid red";
 	}
 	
