@@ -1,0 +1,123 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+nav {
+	float: left;
+	width: 100%;
+	background-color: grey;
+}
+
+#menu {
+
+	text-align: center;
+}
+
+#menu li {
+	padding: 0px 20px 0px 20px;
+	margin: 0px 10px 0px 10px;
+	list-style: none;
+	display: inline;
+	text-align: center;
+	border-radius: 5px;
+	border:1px solid #000;
+	background: linear-gradient(180deg, blue 0%, white 100%);
+}
+
+#menu li:hover {
+	padding: 0px 20px 0px 20px;
+	margin: 0px 10px 0px 10px;
+	list-style: none;
+	display: inline;
+	text-align: center;
+	border-radius: 5px;
+	border:1px solid #000;
+	background: linear-gradient(180deg, orange 0%, white 100%);	
+}
+
+#menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.cuerpo {
+	width: 70%;
+	height: 100%;
+	display: table;
+  	  margin-left: auto;
+ 	   margin-right: auto;
+	background-color: red;
+	
+}
+
+.superior {
+	width: 99%;
+	border: 5px solid red;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: lightblue;
+}
+
+.titulo {
+	float: left;
+	padding: 10px;
+	width: 80%;
+	
+}
+
+.titulo p {
+	color: red;
+	font-size: 30px;
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+	border: 0px;
+}
+
+.titulo h1 {
+	text-transform: uppercase;
+	font-family: 'Kumar One', cursive;
+	color: blue;
+	font-size: 35px;
+	margin: 0;
+	padding: 0;
+	border: 0px;
+}
+
+#foto {
+	float:left;
+	border: 5px solid gray;
+}
+
+.barra_lateral {
+	float: left;
+	width: 25%;
+	text-align: center;
+	background-color: lightblue;
+	
+}
+
+.principal {
+	float: left;
+	width: 70%;
+	padding-left: 50px;
+	background-color: lightblue;
+	
+}
+
+
+@media only screen and (max-width: 900px) {
+	
+	.cuerpo {
+	width: 100%;	
+	}
+	
+	.barra_lateral {
+
+	width: 100%;	
+	}
+	
+}
