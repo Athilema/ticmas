@@ -55,7 +55,7 @@ nav {
 
 .superior {
 	width: 99%;
-	border: 5px solid red;
+	border: 2px solid black;
 	margin: 0;
 	padding: 0;
 	float: left;
@@ -90,7 +90,6 @@ nav {
 
 #foto {
 	float:left;
-	border: 5px solid gray;
 }
 
 .barra_lateral {
