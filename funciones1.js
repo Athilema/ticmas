@@ -33,3 +33,4 @@ document.getElementById("botonGuias").onclick = function () {
 		document.getElementById("botonGuias").style.border = "none";
 		
 	}
+}
