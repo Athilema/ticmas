@@ -1,5 +1,5 @@
 const boton = document.getElementById("botonFormulario");
-boton.addEventListener ("click", mensajeError());
+boton.addEventListener("click", mensajeError());
 
 
 function mensajeError () {
